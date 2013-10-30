@@ -2,9 +2,7 @@
 * Put here the requests to the DataSystem.
 */
 
-var americano;
-
-americano = require('americano-cozy');
+americano = require('americano');
 
 //module.exports = {
 //  bookmark: {

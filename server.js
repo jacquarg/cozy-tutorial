@@ -1,15 +1,4 @@
-var americano, port;
+var americano = require('americano');
 
-americano = require('americano');
-
-process.on('uncaughtException', function(err) {
-  console.error(err);
-  console.error(err.stack);
-});
-
-port = process.env.PORT || 9260;
-
-americano.start({
-  name: 'bookmarks',
-  port: port
-});
+var port = process.env.PORT || 9250;
+americano.start({name: 'bookmark', port: port});
