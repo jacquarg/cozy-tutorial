@@ -4,8 +4,8 @@
 
 americano = require('americano');
 
-//module.exports = {
-//  bookmark: {
-//    all: americano.defaultRequests.all
-//  }
-//};
+module.exports = {
+    receiptdetail: {
+        all: americano.defaultRequests.all
+    }
+};
