@@ -2,8 +2,11 @@
 * Set the routes of your app here.
 */ 
 
-//module.exports = {
-//  '' : {
-//    get: 
-//  }
-//};
+ReceiptDetails = require('./receiptdetails');
+
+module.exports = {
+  'receiptdetails': {
+      get: ReceiptDetails.list
+  }
+};
+
